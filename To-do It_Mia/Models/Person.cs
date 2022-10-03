@@ -15,8 +15,8 @@ namespace To_do_It_Mia.Models
         public Person(int personId, string firstName, string lastName)
         {
             this.personId = personId;
-            this.firstName = firstName;
-            this.lastName = lastName;
+            FirstName = firstName;
+            LastName = lastName;
         }
 
         public int PersonId
